@@ -1,0 +1,91 @@
+/* Step 13: CSS Syntax & Element Selectors */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Step 14: Classes vs. IDs */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#main-heading {
+    color: darkred;
+    text-align: center;
+}
+
+/* Step 16 & 17: Divs and Box Model (Padding, Margin, Border) */
+.header {
+    background-color: #d1e7dd;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+}
+
+.main-content {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Step 18: CSS Positioning */
+.relative-box {
+    position: relative;
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: orange;
+    padding: 5px;
+}
+
+/* Step 19: CSS Sizing (px, %, em, rem) */
+h3 {
+    font-size: 1.5em;
+}
+.main-content {
+    width: 90%;
+}
+
+/* Step 20: Float and Clear */
+.float-container {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box {
+    width: 40%;
+    padding: 20px;
+    color: white;
+}
+
+.box-left {
+    float: left;
+    background-color: green;
+}
+
+.box-right {
+    float: right;
+    background-color: purple;
+}
+
+.clear {
+    clear: both;
+}
