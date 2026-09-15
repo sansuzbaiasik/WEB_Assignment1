@@ -1,10 +1,10 @@
-/* Step 13: CSS Syntax & Element Selectors */
+
 p {
     font-size: 16px;
     color: #333;
 }
 
-/* Step 14: Classes vs. IDs */
+
 .highlight {
     background-color: yellow;
     font-weight: bold;
@@ -15,7 +15,7 @@ p {
     text-align: center;
 }
 
-/* Step 16 & 17: Divs and Box Model (Padding, Margin, Border) */
+
 .header {
     background-color: #d1e7dd;
     padding: 20px;
@@ -38,7 +38,7 @@ p {
     margin-top: 20px;
 }
 
-/* Step 18: CSS Positioning */
+
 .relative-box {
     position: relative;
     background-color: lightblue;
@@ -55,7 +55,7 @@ p {
     padding: 5px;
 }
 
-/* Step 19: CSS Sizing (px, %, em, rem) */
+
 h3 {
     font-size: 1.5em;
 }
@@ -63,7 +63,7 @@ h3 {
     width: 90%;
 }
 
-/* Step 20: Float and Clear */
+
 .float-container {
     margin-top: 20px;
     border: 1px solid black;
